@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterSuksesActivity">
+
+    <ImageView
+        android:id="@+id/lg_regiss_sukses"
+        android:layout_width="215dp"
+        android:layout_height="215dp"
+        android:src="@drawable/ic_registerasi_sukses"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="154dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lg_regiss_sukses"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textAllCaps="true"
+        android:fontFamily="@font/montserrat"
+        android:textSize="20dp"
+        android:text="registrasi berhasil" />
+
+    <Button
+        android:id="@+id/btn_login_regis_sukses"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="login"
+        android:layout_marginTop="540dp"
+        android:background="@drawable/shape"/>
+
+
+</RelativeLayout>
